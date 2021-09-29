@@ -1,4 +1,5 @@
-import { deprecate } from '@ember/debug';
+// import { deprecate } from '@ember/debug';
+const deprecate = () => {};
 
 export function visit() {
   deprecate(

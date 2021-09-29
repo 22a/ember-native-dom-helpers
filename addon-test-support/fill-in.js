@@ -4,7 +4,8 @@ import isFormControl from './-private/is-form-control';
 import { focus } from './focus';
 import { fireEvent } from './fire-event';
 import { wait } from './-private/compatibility';
-import { deprecate } from '@ember/debug';
+// import { deprecate } from '@ember/debug';
+const deprecate = () => {};
 
 /*
   @method fillIn

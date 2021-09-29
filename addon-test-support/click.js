@@ -3,7 +3,8 @@ import getElementWithAssert from './-private/get-element-with-assert';
 import { fireEvent } from './fire-event';
 import { focus } from './focus';
 import { wait } from './-private/compatibility';
-import { deprecate } from '@ember/debug';
+// import { deprecate } from '@ember/debug';
+const deprecate = () => {};
 
 /*
   @method clickEventSequence

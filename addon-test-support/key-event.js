@@ -1,6 +1,7 @@
 import { assign } from '@ember/polyfills';
 import { triggerEvent } from './trigger-event';
-import { deprecate } from '@ember/debug';
+// import { deprecate } from '@ember/debug';
+const deprecate = () => {};
 
 /**
  * @public

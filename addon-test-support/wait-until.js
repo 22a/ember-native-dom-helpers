@@ -1,6 +1,7 @@
 import { run } from '@ember/runloop';
 import RSVP from 'rsvp';
-import { deprecate } from '@ember/debug';
+// import { deprecate } from '@ember/debug';
+const deprecate = () => {};
 
 export function waitUntil(callback, { timeout = 1000 } = {}) {
   deprecate(
